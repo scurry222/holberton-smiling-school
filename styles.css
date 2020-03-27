@@ -2,6 +2,10 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.offset-sm-right-1 {
+    margin-right: 8.33333333%
+}
+
 .header-container {
     background: url('images\ 2/pic_1.jpg') no-repeat;
     -webkit-background-size: cover;
@@ -18,11 +22,9 @@ body {
 }
 
 
-.menu-open {
-    display: none;
-}
-
-.menu-open-button {
+.btn-collapse {
+    background: none;
+    border: none;
     display: none;
 }
 
@@ -43,8 +45,7 @@ body {
 
 .holberton_school-icon-menu:before {
     content: "\e911";
-    display: none;
-
+    color: white;
 }
 
 .logo {
@@ -86,12 +87,13 @@ body {
     color: #c271ff;
 }
 
+
 .img {
-    width: 10rem;
-    height: 150px;
+    width: 7rem;
+    height: 7rem;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 10rem auto;
+    background-size: 7rem auto;
 }
 
 #p1 {
@@ -110,20 +112,28 @@ body {
     background-image: url('images\ 2/profile_4.jpg');
 }
 
-@media screen and (max-width: 565px) {
+@media screen and (max-width: 767px) {
+    .offset-sm-right-1 {
+        margin-right: 0 !important ;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .collapse:not(.show) {
+        display: flex;
+    }
+
     .navbar-nav {
         margin: auto;
     }
 }
 
 @media only screen and (max-width: 480px) {
-
-    .menu-open-button {
-      display: flex;
-      position: relative;
-      color: white;
-      cursor: pointer;
-      transition: transform .3s ease;
+    .collapse:not(.show) {
+        display: none;
+    }
+    .btn-collapse {
+        display: block;
     }
 
     .holberton_school-icon-menu:before {
@@ -142,41 +152,13 @@ body {
     }
 
     .navbar-nav {
-        display: none;
-        transition: all .3s;
-        height: 0rem;
-    }
-
-  
-    .menu-open-button:hover {
-        transform-style: preserve-3d;
-        backface-visibility: hidden;
-        transition-duration: .3s;
-    }
-  
-    .menu-line {
         display: block;
-        background: white;
-        width: 1.5rem;
-        height: .15rem;
-        margin: .15rem;
     }
-  
-    .menu-line-2 {
-      width: 1rem;
+    .img {
+        width: 8rem;
+        height: 8rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 8rem auto;
     }
-  
-    li .nav-item {
-        display: flex;
-        width: 7.5rem;
-        height: 3.5rem;
-        margin: .4rem;
-        justify-content: center;
-        align-items: center;
-    }
-    .menu-open:checked ~ .navbar-nav {
-        display: block;
-        max-height: 300px;
-    }
-
-  }
+}
