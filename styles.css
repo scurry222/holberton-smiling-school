@@ -2,8 +2,17 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+h6 span {
+    font-size: 0.75rem;
+    width: 0.75rem;
+}
+
 .offset-sm-right-1 {
     margin-right: 8.33333333%
+}
+
+.left-offset {
+    margin-left:  8.33333333%
 }
 
 .header-container {
@@ -87,11 +96,10 @@ body {
     color: #c271ff;
 }
 
-
 .img {
     width: 7rem;
     height: 7rem;
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: 7rem auto;
 }
@@ -112,6 +120,11 @@ body {
     background-image: url('images\ 2/profile_4.jpg');
 }
 
+#p5,
+#p6 {
+    background-image: url('images\ 2/profile_5.jpg');
+}
+
 @media screen and (max-width: 767px) {
     .offset-sm-right-1 {
         margin-right: 0 !important ;
@@ -126,6 +139,14 @@ body {
     .navbar-nav {
         margin: auto;
     }
+    .img {
+        width: 10rem;
+        height: 10rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 10rem auto;
+    }
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -144,21 +165,42 @@ body {
     .navbar-header {
         display: flex;
         flex-direction: column;
-        margin: auto;
+        /* margin: auto; */
         align-items: center;
         width: 15rem;
-        padding-right: 1rem;
+        /* padding-right: 1rem; */
         padding-top: 2rem;
     }
 
     .navbar-nav {
         display: block;
     }
-    .img {
-        width: 8rem;
-        height: 8rem;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 8rem auto;
+
+}
+
+.carousel {
+    margin-top: -1px;
+    background: #c271ff;
+}
+
+.item-content {
+    /* margin-top: -7rem; */
+    color: white;
+    width: 10rem;
+    max-width: 36rem;
+}
+
+.font-weight-bold {
+    font-family: 'Source Sans Pro Bold', sans-serif;
+}
+
+[class^="carousel-control-"] {
+    height: 13rem;
+}
+
+@media only screen and (max-width: 578px) {
+    [class^="carousel-control-"] {
+        height: 16rem;
     }
 }
+
