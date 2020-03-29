@@ -194,6 +194,10 @@ h6 span {
     font-family: 'Source Sans Pro Bold', sans-serif;
 }
 
+[class*="arrow-"] {
+    height: 4rem;
+}
+
 [class^="carousel-control-"] {
     height: 13rem;
 }
