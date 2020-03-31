@@ -95,6 +95,16 @@ h6 span {
     font-weight: bold;
     color: #c271ff;
 }
+.title {
+    font-family: 'Source Sans Pro Light', sans-serif;
+    font-size: 2rem;
+}
+
+.title span {
+    font-family: 'Source Sans Pro Bold', sans-serif !important;
+    font-weight: bold;
+    color: #c271ff;
+}
 
 .img {
     width: 7rem;
@@ -199,7 +209,9 @@ h6 span {
 }
 
 [class^="carousel-control-"] {
+    display: flex;
     height: 13rem;
+    align-items: center;
 }
 
 @media only screen and (max-width: 578px) {
@@ -231,4 +243,8 @@ h6 span {
 
 .card {
     border: none;
+}
+
+#smiles {
+    background-color: #071629
 }
