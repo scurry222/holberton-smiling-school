@@ -24,6 +24,14 @@ h6 span {
     background-position: 44% 40%;
 }
 
+.header-container-pricing {
+    background: url('images\ 2/pic_2.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 44% 40%;
+}
 
 .header-button {
     background-color: #c271ff;
@@ -86,11 +94,11 @@ h6 span {
     margin-top: 6rem;
 }
 
-.header-content-subtitle {
+.header-subtitle {
     font-family: 'Source Sans Pro Light', sans-serif;
 }
 
-.header-content-subtitle span {
+.header-subtitle span {
     font-family: 'Source Sans Pro Bold', sans-serif !important;
     font-weight: bold;
     color: #c271ff;
@@ -269,11 +277,14 @@ a:hover {
     text-decoration: none;
 }
 
-.holberton_school-icon-ic_facebook::before {
-    content: "\e908";
-}
 [class^="holberton_school-icon-ic"]:hover {
     color: #c271ff;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.holberton_school-icon-ic_facebook::before {
+    content: "\e908";
 }
 
 .holberton_school-icon-ic_twitter::before {
