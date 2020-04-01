@@ -7,6 +7,15 @@ h6 span {
     width: 0.75rem;
 }
 
+h2 {
+    font-family: coiny;
+}
+
+h2 span {
+    color: #c271ff;
+    
+}
+
 .offset-sm-right-1 {
     margin-right: 8.33333333%
 }
