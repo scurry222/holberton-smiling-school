@@ -36,6 +36,11 @@ h6 span {
 .header-button {
     background-color: #c271ff;
     border-radius: 5rem;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #c271ff;
+    opacity: 0.9;
 }
 
 
@@ -298,4 +303,10 @@ a:hover {
 
 .holberton_school-icon-ic_instagram::before {
     content: "\e90a";
+}
+
+.holberton_school-icon-check::before {
+    font-size: 2rem;
+    content: "\e905";
+    color: #82D24F;
 }
