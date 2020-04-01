@@ -200,6 +200,10 @@ h6 span {
     max-width: 36rem;
 }
 
+.content-title {
+    font-family: 'Source Sans Pro Light', sans-serif;
+}
+
 .font-weight-bold {
     font-family: 'Source Sans Pro Bold', sans-serif;
 }
@@ -245,6 +249,37 @@ h6 span {
     border: none;
 }
 
-#smiles {
+#smiles,
+#footer {
     background-color: #071629
+}
+
+.social-item {
+    color: #071629;
+}
+
+.social-link {
+    color: white;
+}
+
+.social-link:hover {
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.holberton_school-icon-ic_facebook::before {
+    content: "\e908";
+}
+[class^="holberton_school-icon-ic"]:hover {
+    color: #c271ff;
+}
+
+.holberton_school-icon-ic_twitter::before {
+    content: "\e90f";
+}
+
+.holberton_school-icon-ic_instagram::before {
+    content: "\e90a";
 }
