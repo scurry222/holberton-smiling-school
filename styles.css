@@ -310,3 +310,9 @@ a:hover {
     content: "\e905";
     color: #82D24F;
 }
+
+.faq > .container > h1 {
+    font-family: 'Source Sans Pro Light', sans-serif;
+}
+
+
