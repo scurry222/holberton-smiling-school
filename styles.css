@@ -83,6 +83,11 @@ h6 span {
     right: 0;
 }
 
+.nav-link.text-white:hover {
+    color: #c271ff!important;
+    border-bottom: 2px solid white;
+}
+
 .header-title h1 {
     font-size: 6rem;
     font-weight: bold;
