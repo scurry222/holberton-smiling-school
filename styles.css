@@ -42,6 +42,15 @@ h2 span {
     background-position: 44% 40%;
 }
 
+.header-container-courses {
+    background: url('images\ 2/pic_3.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 44% 40%;
+}
+
 .header-button {
     background-color: #c271ff;
     border-radius: 5rem;
