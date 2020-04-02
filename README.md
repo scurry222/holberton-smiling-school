@@ -6,7 +6,7 @@ In this project, we will implement 3 web pages with Bootstrap. We will use all H
 We won’t have a lot of instruction, we are free to implement it the way that you want - the objective is simple: Have fully functional web pages that look the same as the designer file.
 
 Here the final result:
-![](images\ 2/example.jpg)
+![]("images\ 2/example.jpg")
 
 ## Requirements
 
