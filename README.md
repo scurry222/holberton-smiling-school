@@ -49,6 +49,6 @@ Here the final result:
 
 ## Authors
 
-Front-end: **Scout Curry** ([scurry222])(https://github.com/scurry222)
+Front-end: [scurry222](https://github.com/scurry222)
 
 UI/UX Design: **Nicolas Philippot**
