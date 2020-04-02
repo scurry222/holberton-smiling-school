@@ -324,4 +324,78 @@ a:hover {
     font-family: 'Source Sans Pro Light', sans-serif;
 }
 
+.search {
+    margin-top: -1px;
+    background-color: #c171ff;
+}
 
+.form-control {
+    color: white;
+    margin-left: -2rem;
+    /* padding-left: 2rem; */
+    font-family: 'Source Sans Pro Light', sans-serif;
+    background-color: #D195FF;
+    opacity: 0.8;
+    border: none;
+    border-bottom: 1px solid #E7C8FF;
+    z-index: 1;
+}
+.holberton_school-icon-search_2 {
+    font-size: 2rem;
+    z-index: 2;
+}
+
+.holberton_school-icon-search_2::before {
+    content: "\e913";
+    z-index: 2;
+}
+
+.form-control:focus {
+    background-color: #D195FF;
+    color: white;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+.dropdown-menu {
+    /* color: black; */
+    font-family: 'Source Sans Pro', sans-serif;
+    /* background-color: #D195FF; */
+    /* border: none; */
+}
+
+.btn-filter {
+    background-color: #D195FF;
+    height: 3rem;
+}
+
+.dropdown-toggle {
+    border-bottom: 1px solid #E7C8FF;
+}
+
+.selected {
+    float: left;
+}
+/* .topic.dropdown-toggle::after {
+    margin-left: 10rem;
+} */
+.dropdown-toggle::after {
+    float: right;
+    margin-top: .75rem;
+}
+
+.dropdown-toggle:focus {
+    background-color: #CB87FF;
+    box-shadow: none;
+}
+
+.dropdown-item:hover {
+    background-color: white;
+    color: #D195FF;
+}
+
+.menu p {
+    margin-bottom: 0;
+}
